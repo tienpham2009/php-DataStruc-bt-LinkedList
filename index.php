@@ -12,9 +12,10 @@ $linkedList->addLastNode(3);
 $linkedList->addFirstNode(4);
 $linkedList->addLastNode(5);
 $linkedList->addOfIndex(3,6);
+$linkedList->addLastNode(7);
 
 
-$linkedList->deleteOfValue(5);
+$linkedList->deleteOfValue(7);
 echo "<pre>";
 var_dump($linkedList);
 echo $linkedList->size();

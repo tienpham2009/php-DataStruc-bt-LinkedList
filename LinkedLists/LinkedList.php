@@ -107,6 +107,9 @@ class LinkedList
             if ($this->firstNode->value == $value){
                 $this->firstNode = $this->firstNode->next;
             }
+            if ($this->lastNode->value == $value){
+                $this->lastNode = null;
+            }
 
             while ($count > 0) {
                 $preNode = $currNode;
